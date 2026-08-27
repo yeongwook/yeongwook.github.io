@@ -6,7 +6,8 @@ Static site (plain HTML/CSS, no build step) ready for GitHub Pages.
 
 ```
 index.html          Home page (bio, research interests, recent publications, contact)
-publications.html   Full publication list, grouped by year (compiled from Google Scholar)
+journals.html       Journal articles / preprints, grouped by year, 2019 onward
+conferences.html    Conference papers, grouped by year, 2019 onward
 css/style.css        All styling
 assets/               Put a profile photo here (e.g. assets/profile.jpg)
 ```
@@ -50,5 +51,5 @@ Save, then the site publishes at `https://<username>.github.io/<repo-name>`.
 
 - **Photo**: add `assets/profile.jpg` and replace the `<div class="hero-photo">YY</div>` block in `index.html` with `<img src="assets/profile.jpg" alt="Yeongwook Yang">`.
 - **Lab name**: currently branded generically as "Yeongwook Yang Lab" — change the `<div class="brand">` text and page `<title>` in both HTML files if you have an official lab name.
-- **Publications**: `publications.html` was compiled from your Google Scholar profile (57 entries, 2013–2026). Scholar entries for Korean-language conference papers were sometimes incomplete (missing full author lists) — double check those and edit directly in the HTML.
+- **Publications**: `journals.html` and `conferences.html` were compiled from your Google Scholar profile, limited to 2019–2026 and split by publication type (arXiv preprints are listed at the end of `journals.html`). Scholar entries for Korean-language conference papers were sometimes incomplete (missing full author lists) — double check those and edit directly in the HTML.
 - **Contact section**: edit email/affiliation cards in `index.html` under `#contact`.
