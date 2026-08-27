@@ -179,6 +179,7 @@ h2.section-title {
   box-shadow: 0 0 0 2px var(--teal);
 }
 .timeline .role { font-weight: 600; color: var(--navy); }
+.timeline .role .period { font-weight: 500; color: var(--text-muted); font-size: 0.88rem; }
 .timeline .org { color: var(--text-muted); font-size: 0.93rem; }
 
 /* Research interest cards */
