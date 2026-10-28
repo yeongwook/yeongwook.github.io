@@ -49,7 +49,7 @@ Save, then the site publishes at `https://<username>.github.io/<repo-name>`.
 
 ## Things to customize
 
-- **Photo**: add `assets/profile.jpg` and replace the `<div class="hero-photo">YY</div>` block in `index.html` with `<img src="assets/profile.jpg" alt="Yeongwook Yang">`.
+- **Photo**: `assets/profile.png` (background removed, transparent PNG).
 - **Lab name**: currently branded generically as "Yeongwook Yang Lab" — change the `<div class="brand">` text and page `<title>` in both HTML files if you have an official lab name.
-- **Publications**: `journals.html` and `conferences.html` were compiled from your Google Scholar profile, limited to 2019–2026 and split by publication type (arXiv preprints are listed at the end of `journals.html`). Scholar entries for Korean-language conference papers were sometimes incomplete (missing full author lists) — double check those and edit directly in the HTML.
+- **Publications**: `journals.html` and `conferences.html` were generated from 총괄연구업적현황 (research record spreadsheet), limited to the last eight years (2019–2026). Own name is shown in bold; `*` marks papers where Yeongwook Yang is a main author (first or corresponding).
 - **Contact section**: edit email/affiliation cards in `index.html` under `#contact`.
