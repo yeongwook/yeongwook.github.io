@@ -265,6 +265,7 @@ h2.section-title {
 /* Badges, legend, sub-sections */
 .pub-badge { margin-left: 4px; }
 .pub-venue .pub-badge:first-of-type { margin-left: 8px; }
+.pub-badge.badge-award { background: #fbe3e8; color: #a3123a; }
 .pub-badge.badge-top { background: #fdecd2; color: #a35a00; }
 .pub-legend { font-size: 0.86rem; color: var(--text-muted); margin: -6px 0 24px; }
 .pub-legend .me { color: var(--text); font-weight: 700; }
